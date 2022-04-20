@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
-import { getTrendingImages } from '../../../server/Api'
-import Gif from '../../Gif/gif'
+import React from 'react';
+import { useEffect, useState } from 'react';
+import { getTrendingImages } from '../../../server/Api';
+import Gif from '../../Gif/gif';
 
 export default function Trending() {
     const [images, setImages] = useState([]);

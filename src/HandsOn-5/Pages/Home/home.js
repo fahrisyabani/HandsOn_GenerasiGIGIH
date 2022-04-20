@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react"
-import Gif from "../../../components/Gif/gif"
+import React from 'react';
+import { useEffect, useState } from 'react';
+import Gif from '../../../components/Gif/gif';
 
 
 const HandsOn5 = () => {

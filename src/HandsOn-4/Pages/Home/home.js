@@ -1,10 +1,10 @@
-import React from "react"
-import Gif from "../../../components/Gif/gif"
+import React from 'react';
+import Gif from '../../../components/Gif/gif';
 
 
 const HandsOn4 = () => {
   const [images, setImages] = React.useState([])
-  const [text, setText] = React.useState("")
+  const [text, setText] = React.useState('')
   const API_KEY = process.env.REACT_APP_GIPHY_API_KEY;
 
   const getImages = async query => {
@@ -46,4 +46,4 @@ const HandsOn4 = () => {
   )
 }
 
-export default HandsOn4
+export default HandsOn4;

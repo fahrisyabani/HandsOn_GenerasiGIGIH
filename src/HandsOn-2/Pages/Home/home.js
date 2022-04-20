@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 // Mengambil Data dari link Github
 const gifData = {

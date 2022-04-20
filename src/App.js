@@ -1,6 +1,5 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
 import HandsOn1 from './HandsOn-1/Pages/Home/home';
 import HandsOn2 from './HandsOn-2/Pages/Home/home';
 import HandsOn3 from './HandsOn-3/Pages/Home/home';
@@ -60,9 +59,9 @@ function App() {
 
           <hr></hr>
 
-          {/* HandsOn-7 */}
+          {/* HandsOn-8 */}
           <AppRoute />
-          {/* akhir HandsOn-7 */}
+          {/* akhir HandsOn-8 */}
 
         </div>
       </section>

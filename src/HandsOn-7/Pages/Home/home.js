@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import SearchBar from "../../../components/HandsOn-7/SearchBar";
 import Gif from "../../../components/Gif/gif";

@@ -1,6 +1,7 @@
-import { useState } from "react";
-import SearchBar from '../SearchBar/index'
-import Gif from '../../Gif/gif'
+import React from 'react';
+import { useState } from 'react';
+import SearchBar from '../SearchBar/index';
+import Gif from '../../Gif/gif';
 
 function SearchGif() {
     const [images, setImages] = useState([]);

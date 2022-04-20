@@ -2,6 +2,7 @@
     "env": {
         "browser": true,
         "es2021": true
+        // "node" : true
     },
     "extends": [
         "eslint:recommended",
@@ -18,5 +19,13 @@
         "react"
     ],
     "rules": {
+        // "extends": "eslint:recommended"
+        
+        // "quotes": ["error", "single"],
+        "react/prop-types" : 0
+        // "no-undef" : "error",
+        // "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+        
     }
+    
 }
